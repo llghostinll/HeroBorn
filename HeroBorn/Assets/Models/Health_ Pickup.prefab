@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1644091989184550862}
   - component: {fileID: 3277546001553774809}
   - component: {fileID: -3805164495666631392}
+  - component: {fileID: 6815946528473203838}
   m_Layer: 0
   m_Name: Health_ Pickup
   m_TagString: Untagged
@@ -121,3 +122,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   RotationSpeed: 100
+--- !u!114 &6815946528473203838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8153170019068248897}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9de32ca426eca144295b736ede10e2b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

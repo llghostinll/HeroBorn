@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// Item will SPIN!!!
 public class ItemRotation : MonoBehaviour
 {
     public int RotationSpeed = 100;
