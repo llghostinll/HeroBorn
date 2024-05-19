@@ -13,6 +13,10 @@ public class PlayerBehavior : MonoBehaviour
     private float _hInput;
     // 1
     private Rigidbody _rb;
+    // ... No other variable changes needed ...
+    // 1
+    public float JumpVelocity = 5f;
+    private bool _isJumping;
 
     // Start is called before the first frame update
     void Start()
@@ -34,6 +38,8 @@ public class PlayerBehavior : MonoBehaviour
         // 6
         this.transform.Rotate(Vector3.up * _hInput *
         Time.deltaTime);
+        // 2
+        _isJumping |= Input.GetKeyDown(KeyCode.J);
     }
     // 1
     void FixedUpdate()
@@ -48,5 +54,13 @@ public class PlayerBehavior : MonoBehaviour
         this.transform.forward * _vInput * Time.fixedDeltaTime);
         // 5
         _rb.MoveRotation(_rb.rotation * angleRot);
+        // 3
+        if (_isJumping)
+        {
+            // 4
+            _rb.AddForce(Vector3.up * JumpVelocity, ForceMode.Impulse);
+        }
+        // 5
+        _isJumping = false;
     }
 }
