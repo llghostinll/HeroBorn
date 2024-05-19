@@ -430,9 +430,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 1204005300442542720, guid: baa0dbda09e7d6d46b3b9fb7234adf73, type: 3}
+    - {fileID: 1204005302307602299, guid: baa0dbda09e7d6d46b3b9fb7234adf73, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 7143697131720933256, guid: baa0dbda09e7d6d46b3b9fb7234adf73, type: 3}
-      insertIndex: 4
+      insertIndex: 3
       addedObject: {fileID: 189235791}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: baa0dbda09e7d6d46b3b9fb7234adf73, type: 3}
@@ -724,11 +725,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2928574006661379477, guid: 56684ff54216e6548842d4539ed633c4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.6
+      value: -0.83
       objectReference: {fileID: 0}
     - target: {fileID: 2928574006661379477, guid: 56684ff54216e6548842d4539ed633c4, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3.81
+      value: 2.4
       objectReference: {fileID: 0}
     - target: {fileID: 2928574006661379477, guid: 56684ff54216e6548842d4539ed633c4, type: 3}
       propertyPath: m_LocalRotation.w
@@ -757,6 +758,22 @@ PrefabInstance:
     - target: {fileID: 2928574006661379477, guid: 56684ff54216e6548842d4539ed633c4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5000891836481961517, guid: 56684ff54216e6548842d4539ed633c4, type: 3}
+      propertyPath: speed
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5000891836481961517, guid: 56684ff54216e6548842d4539ed633c4, type: 3}
+      propertyPath: myEndPosition.z
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 5000891836481961517, guid: 56684ff54216e6548842d4539ed633c4, type: 3}
+      propertyPath: myStartPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5000891836481961517, guid: 56684ff54216e6548842d4539ed633c4, type: 3}
+      propertyPath: myStartPosition.z
+      value: 16
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
